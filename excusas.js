@@ -10,6 +10,6 @@ const randint =(top)=>{
    if (index === top) return top-1
    return index
 }
-window.onload = function(){
-console.log((person [randint(person.length)]),(verb [randint(verb.length)]),(thing [randint(thing.length)]),(when[randint(when.length)]));
-}
+
+const paragraph = document.getElementById("excuse");
+paragraph.innerText = `${person [randint(person.length)]} ${verb [randint(verb.length)]} ${thing [randint(thing.length)]} ${when[randint(when.length)]}`;
